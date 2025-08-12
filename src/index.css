@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100%;
+    min-height: 100vh;
+  width: 100%;
+    padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root{
+  height:100%;
+    min-height: 100vh;
+  width: 100%;
+    padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signature {
+  font-family: 'Pacifico', cursive;
+}
+ .progress-circle {
+  background: conic-gradient(#2e3cff 0% var(--progress), #d1d5db var(--progress) 100%);
+}

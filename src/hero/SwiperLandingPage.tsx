@@ -1,15 +1,13 @@
 import { Autoplay, EffectCoverflow } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // تأكد تضيف استايل swiper
- 
 const data = [
-  { id: 1, image: "../../public/images/New folder/gallery1/image1.jpg" },
-  { id: 1, image: "../../public/images/New folder/gallery1/image2.jpg" },
-  { id: 1, image: "../../public/images/New folder/gallery1/image3.jpg" },
-  { id: 1, image: "../../public/images/New folder/gallery1/image4.jpg" },
-  { id: 1, image: "../../public/images/New folder/gallery1/image5.jpg" },
-  { id: 1, image: "../../public/images/New folder/gallery1/image6.jpg" },
- 
+  { id: 1, image: "/images/New folder/gallery1/image1.jpg" },
+  { id: 2, image: "/images/New folder/gallery1/image2.jpg" },
+  { id: 3, image: "/images/New folder/gallery1/image3.jpg" },
+  { id: 4, image: "/images/New folder/gallery1/image4.jpg" },
+  { id: 5, image: "/images/New folder/gallery1/image5.jpg" },
+  { id: 6, image: "/images/New folder/gallery1/image6.jpg" },
 ];
 
 const SwiperLandingPage = () => {
